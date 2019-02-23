@@ -8,11 +8,3 @@ create table burgers (
     primary key (id)
 );
 
-insert into burgers (burger_name)
-values ("Double Cheeseburger");
-insert into burgers (burger_name)
-values ("Mushroom Swiss Burger");
-insert into burgers (burger_name)
-values ("Avacado Bacon Burger");
-insert into burgers (burger_name)
-values ("Chili Burger")
