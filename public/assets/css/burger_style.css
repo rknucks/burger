@@ -1,0 +1,23 @@
+body {
+    padding: 30px;
+    background-image: linear-gradient(to top, #00f853 0%, #f9c723 100%);    
+    background-size: 200%;
+}
+.jumbotron h1{
+	color: #3385ff;
+
+}
+
+.jumbotron{
+	padding-top: 1%;
+	background-color:transparent !important;
+}
+
+img {
+margin-top: 5%;
+  width: 15%;
+}
+
+.goodFont{
+	color: rgb(248, 11, 23);
+}
