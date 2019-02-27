@@ -3,7 +3,7 @@ var bodyParser = require('body-parser');
 var methodOverride = require('method-override');
 
 
-var port = process.env.PORT || 8080;
+var PORT = process.env.PORT || 8080;
 
 var app = express();
 
@@ -18,11 +18,11 @@ app.set('view engine', 'handlebars');
 
 
 var router = require('./controllers/burgers_controller.js');
-app.use('/', router);
+app.use(router);
 
 
 
 app.listen(port, function() 
 {
-  console.log("App listening on PORT " + port);
+  console.log("App listening on PORT " + PORT);
 });
