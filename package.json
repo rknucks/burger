@@ -2,9 +2,10 @@
   "name": "burger",
   "version": "1.0.0",
   "description": "An app that lets users input the names of burgers they'd like to eat.  MySql and Handlebars",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
